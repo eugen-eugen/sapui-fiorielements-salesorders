@@ -1,6 +1,14 @@
 {
   "welcomeFile": "/webapp/test/flpSandbox.html",
-  "routes": [
+  "routes": [{
+		"path": "/themes",
+		"target": {
+			"type": "application",
+			"name": "interserohci",
+			"version": "1"
+		},
+		"description": "Theming Service"
+	},
     {
       "path": "/ES5",
       "target": {
